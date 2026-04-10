@@ -19,6 +19,7 @@ Probabilities for phylogenetic permutations are calculated using the "EVO_973_sm
 The function requires ape R package and the "EVO_973_sm_PhyloMantel.R" function (Harmon and Glor, 2010).
 
 References
+
 Harmon L. J., Glor R. E. Poor statistical performance of the Mantel test in phylogenetic comparative analyses // Evolution. 2010. V. 64, No. 7. P. 2173-2178. https://doi.org/10.1111/j.1558-5646.2010.00973.x
 
 Lapointe F.-J., Garland T. A generalized permutation model for the analysis of cross-specific data // Journal of Classification. 2001. V. 18. P. 109-127. https://doi.org/10.1007/s00357-001-0007-0
