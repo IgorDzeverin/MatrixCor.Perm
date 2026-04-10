@@ -1,5 +1,5 @@
 # MatrixCor.Perm
-Permutation tests for estimating correlation between two symmetric matrices. Rows and columns are permuted instead of elements.
+*Permutation tests for estimating correlation between two symmetric matrices. Rows and columns are permuted instead of elements.*
 
 This script contains the functions performing the permutation tests for correlations between two symmetric matrices. Unlike the standard permutation test, the columns and rows of the matrix are permuted instead of individual elements (according to the algorithm described in Manly, 1985, Section 6.8).
 
