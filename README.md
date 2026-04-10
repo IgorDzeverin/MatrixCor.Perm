@@ -3,7 +3,7 @@ Permutation tests for estimating correlation between two symmetric matrices. Row
 
 This script contains the functions performing the permutation tests for correlations between two symmetric matrices. Unlike the standard permutation test, the columns and rows of the matrix are permuted instead of individual elements (according to the algorithm described in Manly, 1985, Section 6.8).
 
-MatrixCor.Perm contains three functions.
+MatrixCor.Perm contains three functions:
 
 1. MatrixCor.AllPerm
 This function computes a two-tailed permutation test of a Pearson correlation coefficient between two symmetric matrices. Diagonal elements are neglected. Rows and columns are permuted instead of elements (according to Manly, 1985, Section 6.8). All possible permutations are used. Therefore, running the test for large matrix sizes may take a long time.
