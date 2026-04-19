@@ -5,7 +5,7 @@ This script contains the functions performing the permutation tests for correlat
 
 MatrixCor.Perm contains three functions:
 
-1. MatrixCor.AllPerm
+1. #MatrixCor.AllPerm#
 This function computes a two-tailed permutation test of a Pearson correlation coefficient between two symmetric matrices. Diagonal elements are neglected. Rows and columns are permuted instead of elements (according to Manly, 1985, Section 6.8). All possible permutations are used. Therefore, running the test for large matrix sizes may take a long time.
 The function requires combinat R package.
 
